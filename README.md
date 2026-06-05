@@ -19,7 +19,7 @@ log-bin = mysql-bin
 binlog-format = ROW
 ```
 
-[Конфиг master](repl_master_conf.png)
+![Конфиг master](repl_master_conf.png)
 
 ### Конфигурация slave (файл slave.cnf)
 
@@ -29,12 +29,12 @@ server-id = 2
 read-only = 1
 ```
 
-[Конфиг slave](repl_slave_conf.png)
+![Конфиг slave](repl_slave_conf.png)
 
 ### Статус master (SHOW MASTER STATUS)
 
-[Master status](repl_master_status.png)
+![Master status](repl_master_status.png)
 
 ### Статус slave (SHOW REPLICA STATUS\G)
 
-[Slave status](repl_slave_status.png)
+![Slave status](repl_slave_status.png)
