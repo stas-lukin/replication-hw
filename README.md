@@ -12,22 +12,22 @@
 
 ### Конфигурация master (файл master.cnf)
 
-```ini
+\`\`\`ini
 [mysqld]
 server-id = 1
 log-bin = mysql-bin
 binlog-format = ROW
-```
+\`\`\`
 
 ![Конфиг master](repl_master_conf.png)
 
 ### Конфигурация slave (файл slave.cnf)
 
-```ini
+\`\`\`ini
 [mysqld]
 server-id = 2
 read-only = 1
-```
+\`\`\`
 
 ![Конфиг slave](repl_slave_conf.png)
 
